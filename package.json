@@ -2,7 +2,7 @@
   "name": "newsapp",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://newsapi.org/v2/everything?q=Apple&from=2022-02-18&sortBy=popularity&apiKey=API_KEY",
+  "proxy": "https://newsapi.org/v2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
