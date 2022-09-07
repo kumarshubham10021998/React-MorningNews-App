@@ -5,9 +5,9 @@ export class NavBar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div className="container-fluid">
-    <Link className="navbar-brand"to="/">Morning News</Link>
+                <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div className="container">
+    <Link className="navbar-brand"to="/"><i class="fa fa-clock-o ms-2"></i> Morning News </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
